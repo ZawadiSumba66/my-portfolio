@@ -2606,6 +2606,9 @@ input, select, textarea {
 	.fa-paper-plane {
 		color: #370617;
 	}
+	.emoji {
+		font-size: 25px;
+	}
 
 		#header > * {
 			-moz-flex-shrink: 0;
