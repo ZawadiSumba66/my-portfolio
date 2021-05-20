@@ -2603,6 +2603,9 @@ input, select, textarea {
 		top: 0;
 		width: 35%;
 	}
+	.fa-paper-plane {
+		color: #370617;
+	}
 
 		#header > * {
 			-moz-flex-shrink: 0;
