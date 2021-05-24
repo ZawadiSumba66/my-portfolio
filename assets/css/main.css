@@ -2105,6 +2105,9 @@ input, select, textarea {
 			display: block;
 			
 		}
+		.shooter {
+			border-radius: 0.35em;
+		} 
 
 		article img {
 			width: 200px;
