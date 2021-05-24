@@ -2042,9 +2042,10 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
-		.image:before {
+		/* .image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2064,7 +2065,7 @@ input, select, textarea {
 		.image.thumb {
 			text-align: center;
 			
-		}
+		} */
 
 			/* .image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
@@ -2102,6 +2103,12 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+			
+		}
+
+		article img {
+			width: 200px;
+		   height: 200px;
 		}
 
 		.image.left {
@@ -2130,7 +2137,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
+			 .image.fit img {
 				width: 100%;
 			}
 
@@ -2138,10 +2145,10 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
-			.image.avatar:before {
+			/* .image.avatar:before {
 				display: none;
 			}
-
+  */
 			.image.avatar img {
 				border-radius: 100%;
 				width: 100%;
